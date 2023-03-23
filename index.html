@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uno clicker</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h1>Uno Card Clicker</h1>
+        <div class="nav">
+            <button id="abtBtn">About</button>
+            <button id="insBtn">Inspiration</button>
+            <button id="conBtn">Contact</button>
+        </div>
+            
+    </header>
+        <div>
+            <section class="game">
+            <section class="card-counter">
+                <h2>Card Count</h2>
+                <p id="amount-of-card">0</p>
+                <h3>Cards per Click</h3>
+                <p id="card-per-click">1</p>
+                <button id="create"><img src="/docs/img/uno.png"></button>
+            </section> 
+            
+            <section class="auto-clicker-upgrade">
+                <h3>Auto Clickers Purchased:</h3>
+                <p id="number-of-cards">0</p>
+                <h3>Auto Clicker Price:</h3>
+                <p id="auto-clicker-price">100</p>
+                <button id="auto">Purchase Auto Clicker</button>
+            </section>
+
+            <section class="click-multipplier-upgrade">
+                <h3>Total Multipliers Purchased:</h3>
+                <p id="multiplier-count">0</p>
+                <h3>Click Multipplier Price:</h3>
+                <p id="click-multipplier-price">10</p>
+                <button id="multiplier">Purchase Multipplier</button>
+            </section>
+            </section>
+
+            <div id="restart">
+                <button id="reset">Reset</button>
+            </div>
+
+
+            <div class="modal-about">
+                <div id="about" class="about-modal">
+                <p>Do you remember playing UNO as a kid? Here's a application to bring back that nostalgia and collect some UNO cards.</p>
+            </div>
+            </div>
+            <div class="modal-ins">
+                <div id="ins" class="ins-modal">
+                <p>UNO Clicker was inspired by the game <a href="https://orteil.dashnet.org/cookieclicker/">Cookie Clicker.</a></p>
+            </div>
+            </div>
+            <div class="modal-contact">
+                <div id="contact" class="contact-modal">
+                    <p>You can reach out to me on <a href="https://linkedin.com/in/sok-eam">LinkedIn</a> and here is my <a href="https://github.com/SokEam1">GitHub</a> and <a href="https://sokeam1.github.io/">Personal Portfolio</a></p>
+                </div>
+            </div>
+    
+    <script src="UnoCard.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
